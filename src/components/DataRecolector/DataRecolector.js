@@ -26,8 +26,8 @@ class DataRecolector extends React.Component {
     const { data } = this.state;
 
     return (
-      <div className="DataRecolector" onSubmit={this.handleSubmit}>
-        <form className="DataRecolector-form">
+      <div className="DataRecolector">
+        <form className="DataRecolector-form" onSubmit={this.handleSubmit}>
           <textarea
             className="DataRecolector-textarea"
             name="data"
@@ -36,7 +36,7 @@ class DataRecolector extends React.Component {
             value={data}
           ></textarea>
           <button className="DataRecolector-button" type="submit">
-            Submit
+            Count
           </button>
         </form>
       </div>

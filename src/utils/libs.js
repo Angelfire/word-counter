@@ -13,8 +13,15 @@ function isAlphaNumeric(str) {
 
   for (let i = 0, len = str.length; i < len; i++) {
     code = str.charCodeAt(i);
-    // lower alpha (a-z)
-    if (!(code > 96 && code < 123)) {
+    if (
+      !(code > 96 && code < 123) && // lower alpha (a-z)
+      !(code === 241) && // ñ
+      !(code === 225) && // á
+      !(code === 233) && // é
+      !(code === 237) && // í
+      !(code === 243) && // ó
+      !(code === 250) // ú
+    ) {
       return false;
     }
   }
