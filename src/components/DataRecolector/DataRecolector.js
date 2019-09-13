@@ -18,7 +18,6 @@ class DataRecolector extends React.Component {
 
     const { data } = this.state;
     const { handleData } = this.props;
-    this.setState({ data: "" });
 
     handleData(data);
   };
