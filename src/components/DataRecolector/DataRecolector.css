@@ -1,0 +1,25 @@
+.DataRecolector {
+  flex-basis: 49%;
+  margin-right: 9px;
+}
+
+.DataRecolector-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.DataRecolector-textarea {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 340px;
+  padding: 9px;
+  resize: none;
+}
+
+.DataRecolector-button {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  margin-top: 12px;
+  padding: 12px 0;
+}

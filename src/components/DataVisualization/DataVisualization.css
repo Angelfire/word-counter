@@ -1,0 +1,11 @@
+.DataVisualization {
+  align-items: center;
+  display: flex;
+  flex-basis: 49%;
+  justify-content: center;
+  margin-left: 9px;
+}
+
+.DataVisualization-nocontent {
+  color: #ddd;
+}

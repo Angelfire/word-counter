@@ -1,0 +1,15 @@
+.App {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 69px;
+  margin: 32px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
