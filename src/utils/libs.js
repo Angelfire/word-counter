@@ -1,7 +1,7 @@
 /**
  * Some prepositions: spanish and english
  */
-const dictionary = /a|ante|con|de|desde|en|hacia|para|por|sin|tras|the|is|on|in|at|since|for|ago|before|to|by|from|out|off/gi;
+const dictionary = /a|ante|con|de|desde|en|hacia|para|por|sin|tras|the|is|on|of|in|at|since|for|ago|before|to|by|from|out|off/gi;
 
 /**
  *
