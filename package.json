@@ -19,6 +19,6 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "recharts": "^1.7.1"
+    "recharts": "^2.1.14"
   }
 }
